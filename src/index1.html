@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+    <head>
+        <title>Project</title>
+        <link rel="stylesheet" href="styles.css">
+        <script type="module" src="pieces.js"></script>
+    </head>
+    <body class="commande">
+        <header>
+			<img src="images/logo-les-bonnes-pieces.png" alt="LOGO">
+			<h1>Les Bonnes Pièces</h1>
+		</header>
+        <form class="formulaire" method="post" action="hhhhh.php">
+            <fieldset class="hous">
+                <legend>Vos coordonnées</legend>
+                <label for="mail">Entrer votre mail :</label></br>
+                <input type="email" id="mail" placeholder="nomprenom@gmail.com" autofocus required/><br/>
+                </br>
+                
+                <label for="nom">Entrer votre nom:<br/>
+                <input type="text" name="nom" id="nom" placeholder="aloui" required /><br/>
+                </br>
+                
+                <label for="prenom">Entrer votre prenom:</label> <br/>
+                <input type="text" name="prenom" id="prenom" placeholder="houssem" required/><br/>
+                </br>
+                
+                <label for="tele">Entrer votre numéro de téléphone :</label><br/>
+                <input type="tel" id="tel"  placeholder="24655913" required/><br/>
+                </br>
+                
+                <label for="pays" >destination :</label><br/>
+                <select name="pays" id="pays">
+                    <option >Tunisie</option>
+                    <option >Aryena</option>
+                    <option >ben arous</option>
+                    <option >manouba</option>
+                    <option >manar 1</option>
+                    <option >lac 1</option>
+                </select><br/>
+                </br>
+                
+                <label for="date">Enter la date d'envoyer de commande :</label><br/>
+                <input type="date" id="date" placeholder="jj/mm/nn"/><br/>
+                </br>
+                <label for="carte">Type de carte :</label>
+		        <select name="carte" id="carte">
+			        <option value="visa">Visa</option>
+			        <option value="mastercard">MasterCard</option>
+			        <option value="americanexpress">American Express</option>
+		        </select><br>
+                </br>
+
+		        <label for="numero">Numéro de carte :</label>
+		        <input type="text" name="numero" id="numero" required><br>
+                </br>
+
+		        <label for="date">Date d'expiration :</label>
+		        <input type="month" name="date" id="date" required><br>
+                </br>
+
+		        <label for="cvv">Code de sécurité (CVV) :</label>
+		        <input type="text" name="cvv" id="cvv" maxlength="3" required><br>
+                </br>
+                
+                
+                <input type="submit" value="envoyer" class="hhhh" />
+        
+            </fieldset>
+        </form>
+        </br>
+        <a href="index.html" style="border-radius: 3px ; color: white; background-color: black; size: 25px;" >Retour</a>
+        </body>
+       
